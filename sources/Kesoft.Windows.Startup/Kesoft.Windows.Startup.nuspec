@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>http://kesoft.net/nuget/Kesoft.Windows.Startup.License.txt</licenseUrl>
+    <projectUrl>https://github.com/guang810828/Kesoft.Windows.Startup</projectUrl>
+    <iconUrl>http://kesoft.qiniudn.com/kesoft.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Bug fixed.</releaseNotes>
+    <summary>Windows startup</summary>
+    <copyright>$copyright$</copyright>
+    <tags>Windows Startup</tags>
+  </metadata>
+</package>

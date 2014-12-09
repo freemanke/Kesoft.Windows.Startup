@@ -7,8 +7,8 @@
     <ProjectGuid>{666FB646-2BE7-48ED-B8ED-5618F04BA765}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Kesoft.WindowsStartup</RootNamespace>
-    <AssemblyName>Kesoft.WindowsStartup</AssemblyName>
+    <RootNamespace>Kesoft.Windows.Startup</RootNamespace>
+    <AssemblyName>Kesoft.Windows.Startup</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -40,7 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WindowsStartup.cs" />
+    <Compile Include="Startup.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -51,6 +51,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="Kesoft.Windows.Startup.nuspec" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

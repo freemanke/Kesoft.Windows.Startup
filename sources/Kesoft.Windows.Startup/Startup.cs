@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Text;
+﻿using System.IO;
 using Microsoft.Win32;
 
-namespace Kesoft.WindowsStartup
+namespace Kesoft.Windows.Startup
 {
     /// <summary>
     /// 设置自启动帮助类。
     /// </summary>
-    public static class WindowsStartup
+    public static class Startup
     {
         private const string keyName = @"SOFTWARE\Microsoft\Windows\CurrentVersion\Run";
 

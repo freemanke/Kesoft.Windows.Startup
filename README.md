@@ -5,9 +5,13 @@
 
 1. 代码实现的可以通过nuget下载：[http://www.nuget.org/packages/Kesoft.WindowsStartup/](http://www.nuget.org/packages/Kesoft.WindowsStartup/ "Kesoft.WindowsStartup")
 2. 安装脚本实现可以直接下载并修改源代码中的脚本文件:[https://github.com/guang810828/kesoft.windowsstartup/blob/master/setup.iss](https://github.com/guang810828/kesoft.windowsstartup/blob/master/setup.iss "Setup.iss")
+
 ## 如何使用
+
 ### 使用代码方式
+
 使用代码方式只要在程序中调用帮助类的方法即可，例如：
+
 <!-- lang:c# --> 
     [TestFixture]
     class WindowsStartupTest
